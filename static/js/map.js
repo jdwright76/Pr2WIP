@@ -4,9 +4,9 @@ function createMap(){
   var chart = am4core.create("chartdiv", am4maps.MapChart);
   var interfaceColors = new am4core.InterfaceColorSet();
 
-  var title = chart.titles.create();
-  title.text = "[bold font-size: 20]Movement of Refugees and Asylum Seekers 1960-2017[/]\nSource: UNHCR";
-  title.textAlign = "middle";
+  //var title = chart.titles.create();
+  //title.text = "[bold font-size: 20]Movement of Refugees and Asylum Seekers 1960-2017[/]\nSource: UNHCR";
+  //title.textAlign = "middle";
   var label = chart.chartContainer.createChild(am4core.Label);
   label.align = "bottom";
     // Themes begin
